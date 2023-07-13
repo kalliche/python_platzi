@@ -17,3 +17,15 @@ pip3 install -r requirements.txt
 python3 main.py
 
 ```
+
+# webserver
+Proyecto con solicitudeas HTTP con requests
+```sh
+git clone
+cd webserver
+py python3 -m venv webserver
+sourse webserver/bin/activate
+pip3 freeze > requirements.txt
+pip3 install requests
+```
+
