@@ -14,6 +14,11 @@ cd app
 python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
+cat requirements.txt  # ver que esta instalado
+pip3 install pandas # instalacion de pandas libreria
+pip3 freeze # imprimir librerias instaladas
+pip3 freeze > requirements.txt # ejecuta despues de instalas cada libreria
+cat requirements.txt # validar si se actualizo
 python3 main.py
 
 ```
